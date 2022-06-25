@@ -93,3 +93,9 @@
     height: 3rem;
 }
 
+.modal-content
+{
+    background: transparent;
+    border: none;
+}
+

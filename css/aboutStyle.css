@@ -5,6 +5,7 @@
     width:300px;
     border-radius: .5rem;
     border: 1px solid var(--border-color);
+    margin: 1px;
     justify-self: center; /* 自适应居中 */
     align-self: center;
 }

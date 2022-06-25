@@ -121,12 +121,16 @@
     width: 40%;
 }
 
-.skills_java{
-    width: 35%;
+.skills_rust{
+    width: 60%;
 }
 
 .skills_python{
-    width: 25%;
+    width: 90%;
+}
+
+.skills_sql{
+    width: 75%;
 }
 
 .skills_assembly{
@@ -137,6 +141,26 @@
     width: 75%;
 }
 
+.skills_quartus{
+    width: 45%;
+}
+
+.skills_openGL{
+    width: 75%;
+}
+
+.skills_shaderLab{
+    width: 80%;
+}
+
+.skills_pytorch{
+    width: 60%;
+}
+
+.skills_ts{
+    width: 40%;
+}
+
 .skills_procreate{
     width: 95%;
 }
@@ -144,6 +168,12 @@
 .skills_photoshop{
     width: 45%;
 }
+
+.skills_unity{
+    width: 55%;
+}
+
+
 
 
 
