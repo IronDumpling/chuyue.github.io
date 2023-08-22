@@ -106,19 +106,23 @@
 }
 
 .skills_js{
-    width: 65%;
+    width: 60%;
+}
+
+.skills_react{
+    width: 50%;
 }
 
 .skills_c{
-    width: 95%;
+    width: 75%;
 }
 
 .skills_c2{
-    width: 80%;
+    width: 60%;
 }
 
 .skills_c3{
-    width: 40%;
+    width: 80%;
 }
 
 .skills_rust{
@@ -133,31 +137,51 @@
     width: 75%;
 }
 
-.skills_assembly{
-    width: 90%;
+.skills_os{
+    width: 50%;
 }
 
-.skills_verilog{
+.skills_net{
+    width: 50%;
+}
+
+.skills_ver{
+    width: 60%;
+}
+
+.skills_pattern{
+    width: 60%;
+}
+
+.skills_post{
     width: 75%;
 }
 
-.skills_quartus{
-    width: 45%;
+.skills_shader{
+    width: 60%;
 }
 
-.skills_openGL{
-    width: 75%;
+.skills_geometry{
+    width: 50%;
 }
 
-.skills_shaderLab{
-    width: 80%;
+.skills_render{
+    width: 70%;
+}
+
+.skills_ani{
+    width: 70%;
 }
 
 .skills_pytorch{
     width: 60%;
 }
 
-.skills_ts{
+.skills_dl{
+    width: 40%;
+}
+
+.skills_rl{
     width: 40%;
 }
 
@@ -166,11 +190,15 @@
 }
 
 .skills_photoshop{
-    width: 45%;
+    width: 50%;
 }
 
 .skills_unity{
-    width: 55%;
+    width: 75%;
+}
+
+.skills_maya{
+    width: 50%;
 }
 
 

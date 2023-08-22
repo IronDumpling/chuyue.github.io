@@ -45,6 +45,7 @@
     height: 300px;
     width: 300px;
     background-image: url("../images/profileImg.jpeg");
+    background-position: center center;
     background-size: cover; /* 居中 */
     border: 1px solid var(--border-color);
     border-radius: 50%;
