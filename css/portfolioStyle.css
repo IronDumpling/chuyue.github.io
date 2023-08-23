@@ -10,7 +10,7 @@
 
 /* Normal portfolio Image */
 .portfolio_img{
-    width: 300px;
+    width: 95%;
     border-radius: .5rem;
     justify-self: center;
     border: 1px solid var(--border-color);
@@ -18,20 +18,20 @@
 
 /* Portfolio 1 thumbnail bar image */
 .portfolio_thumb-bar{
-    width: 50%;
+    width: 95%;
     margin: 0 auto;
     overflow: hidden;
 }
 
 .portfolio_thumb-bar li{
-    height: 39px;
+    height: 40px;
     float: left;
     border-radius: .5rem;
     transition: all .5s ease-in-out;
 }
 
 .portfolio_thumb-bar img{
-    width: 350px;
+    width: 100%;
 }
 
 .portfolio_thumb-bar:hover li{

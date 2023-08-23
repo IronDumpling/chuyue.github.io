@@ -2,7 +2,7 @@
 
 /* About Image */
 .about_img{
-    width:300px;
+    width: 300px;
     border-radius: .5rem;
     border: 1px solid var(--border-color);
     margin: 1px;
