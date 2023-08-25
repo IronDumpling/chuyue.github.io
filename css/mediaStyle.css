@@ -31,6 +31,7 @@
     }
 
     /* Almost All Containers*/
+    .highlight_container,
     .about_container,
     .skills_container,
     .portfolio_content,
@@ -160,6 +161,11 @@
     }
 
     /* Portfolio */
+    .highlight_container{
+        column-gap: 3rem;
+        padding-bottom: 2rem;
+    }
+
     .portfolio_img{
         width: 400px;
     }

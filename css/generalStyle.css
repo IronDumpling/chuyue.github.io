@@ -120,7 +120,14 @@ img{
     margin-bottom: var(--mb-3);
 }
 
+.section_normal_title{
+    display: block;
+    font-size: var(--normal-font-size);
+    margin-bottom: var(--mb-3);
+}
+
 .section_title,
+.section_normal_title,
 .section_subtitle{
     text-align: center;
 }
