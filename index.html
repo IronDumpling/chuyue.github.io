@@ -820,14 +820,87 @@
             <h2 class="section_title">Portfolio</h2>
             <span class="section_subtitle">My project gallery</span>
 
+            <!--======  Highlight Projects ======-->
+            <div class="container">
+                <h3 class="portfolio_title">Highlight Projects</h3>
+
+                <div>
+                    <!--Thumbnail Images-->
+                    <ul class="portfolio_thumb-bar">
+                        <li>
+                            <img src="images/portfolioImg_backtrack_1.png" alt="Backtrack-1" class="portfolio_img">
+                        </li>
+                        <li>
+                            <img src="images/portfolioImg_backtrack_2.png" alt="Backtrack-2" class="portfolio_img">
+                        </li>
+                        <li>
+                            <img src="images/portfolioImg_backtrack_3.png" alt="Backtrack-3" class="portfolio_img">
+                        </li>
+                        <li>
+                            <img src="images/portfolioImg_backtrack_4.png" alt="Backtrack-4" class="portfolio_img">
+                        </li>
+                    </ul>
+
+                    <div class="portfolio_data">
+                        <h4 class="portfolio_title">Backtrack</h4>
+                        <p class="portfolio_description">A fixed-angle 3D level-based parkour game.</p>
+                        <p class="portfolio_description">Graduation design project in cooperation with students from China Academy of Art.</p>
+                        <a href="https://www.bilibili.com/video/BV1Eu41147eL/?share_source=copy_web&vd_source=c4f4a62c77e5958d5b7b68dc5ac0b675"
+                           target="_blank" class="button button-flex button-small portfolio_button">
+                            View Demo <i class="uil uil-arrow-right button_icon"></i>
+                        </a>
+                        <a href="https://github.com/IronDumpling/Backtrack"
+                           target="_blank" class="button button-flex button-small portfolio_button">
+                            View Repo <i class="uil uil-arrow-right button_icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <!--Thumbnail Images-->
+                    <ul class="portfolio_thumb-bar">
+                        <li>
+                            <img src="images/portfolioImg_graphics_1.gif" alt="Graphics-1" class="portfolio_img">
+                        </li>
+                        <li>
+                            <img src="images/portfolioImg_graphics_2.gif" alt="Graphics-2" class="portfolio_img">
+                        </li>
+                        <li>
+                            <img src="images/portfolioImg_graphics_3.gif" alt="Graphics-3" class="portfolio_img">
+                        </li>
+                        <li>
+                            <img src="images/portfolioImg_graphics_4.gif" alt="Graphics-4" class="portfolio_img">
+                        </li>
+                        <li>
+                            <img src="images/portfolioImg_graphics_5.png" alt="Graphics-5" class="portfolio_img">
+                        </li>
+                    </ul>
+
+                    <div class="portfolio_data">
+                        <h4 class="portfolio_title">Computer Graphics Implementation</h4>
+                        <p class="portfolio_description">I implemented render algorithms such as rasterization, ray-casting,
+                            ray-tracing. Simple shader pipeline using OpenGL.</p>
+                        <p class="portfolio_description">Animation algorithms such as Inverse-Kinematics, mass-sporing system.</p>
+                        <p class="portfolio_description">Geometry algorithms such as AABB bounding box and Catmull-Clark subdivision surface algorithm.</p>
+                        <a href="https://github.com/IronDumpling/computer_graphics_implementation"
+                           target="_blank" class="button button-flex button-small portfolio_button">
+                            View Repo <i class="uil uil-arrow-right button_icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--====== All Projects ======-->
             <div class="portfolio_container container swiper-container">
+                <h3 class="portfolio_title">All Projects</h3>
                 <div class="swiper-wrapper">
                     <!--====== PORTFOLIO 1 ======-->
                     <div class="portfolio_content grid swiper-slide">
                         <img src="images/portfolioImg_map.jpeg" alt="GIS Screenshot" class="portfolio_img">
 
                         <div class="portfolio_data">
-                            <h3 class="portfolio_title">Easy Go Map</h3>
+                            <h4 class="portfolio_title">Easy Go Map</h4>
                             <p class="portfolio_description">An offline GIS software, presenting global urban map data with navigation function.</p>
                             <a href="#" target="_blank" class="button button-flex button-small portfolio_button"
                                 data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -855,7 +928,7 @@
                         </ul>
 
                         <div class="portfolio_data">
-                            <h3 class="portfolio_title">Backtrack</h3>
+                            <h4 class="portfolio_title">Backtrack</h4>
                             <p class="portfolio_description">A fixed-angle 3D level-based parkour game.</p>
                             <p class="portfolio_description">Graduation design project in cooperation with students from China Academy of Art.</p>
                             <a href="https://www.bilibili.com/video/BV1Eu41147eL/?share_source=copy_web&vd_source=c4f4a62c77e5958d5b7b68dc5ac0b675"
@@ -872,11 +945,29 @@
 
                     <!--====== PORTFOLIO 3 ======-->
                     <div class="portfolio_content grid swiper-slide">
-                        <img src="images/portfolioImg_wave.png" alt="EmoNet Result Screenshot"
+                        <img src="images/portfolioImg_candle.jpg" alt="Candle Lighter Poster"
                              class="portfolio_img">
 
                         <div class="portfolio_data">
-                            <h3 class="portfolio_title">Wave Optics Education Website</h3>
+                            <h4 class="portfolio_title">Candle Lighter</h4>
+                            <p class="portfolio_description">A 2.5D sokoban programming puzzle-solving game.</p>
+                            <p class="portfolio_description">Player needs to reach three lighthouses in the world.
+                                Player programs proper instructions using collected cards.
+                                Then use light to convey the instructions to the proper objects in order to overcome obstacles.</p>
+                            <a href="https://github.com/ECE496-Game-Project/Candle-Lighter"
+                               target="_blank" class="button button-flex button-small portfolio_button">
+                                View Repo <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--====== PORTFOLIO 3 ======-->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="images/portfolioImg_wave.png" alt="Wave Optics Screenshot"
+                             class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h4 class="portfolio_title">Wave Optics Education Website</h4>
                             <p class="portfolio_description">Simulated interactive and editable scenes generated through physical algorithms,
                                 facilitating students' comprehension of wave optics.</p>
                             <p class="portfolio_description">Capstone design project which would be completed in the coming Spring.</p>
@@ -913,7 +1004,7 @@
                         </ul>
 
                         <div class="portfolio_data">
-                            <h3 class="portfolio_title">Computer Graphics Implementation</h3>
+                            <h4 class="portfolio_title">Computer Graphics Implementation</h4>
                             <p class="portfolio_description">I implemented render algorithms such as rasterization, ray-casting,
                                 ray-tracing. Simple shader pipeline using OpenGL.</p>
                             <p class="portfolio_description">Animation algorithms such as Inverse-Kinematics, mass-sporing system.</p>
@@ -925,13 +1016,13 @@
                         </div>
                     </div>
 
-                    <!--====== PORTFOLIO 4 ======-->
+                    <!--====== PORTFOLIO 5 ======-->
                     <div class="portfolio_content grid swiper-slide">
-                        <img src="images/portfolioImg_overclock.jpg" alt="Over Clock Survivor Poster"
+                        <img src="images/portfolioImg_candle.jpg" alt="Over Clock Survivor Poster"
                              class="portfolio_img">
 
                         <div class="portfolio_data">
-                            <h3 class="portfolio_title">Over-Clock Survivor</h3>
+                            <h4 class="portfolio_title">Over-Clock Survivor</h4>
                             <p class="portfolio_description">A third-person 3D survival game inspired by "Vampire Survivor" and "Backpack Heroes".</p>
                             <p class="portfolio_description">Player controls a robot whose danmaku attack is controlled by motherboard.
                                 Player needs to organize a tetris backpack to build up the motherboard in order to survive.</p>
@@ -942,13 +1033,13 @@
                         </div>
                     </div>
 
-                    <!--====== PORTFOLIO 5 ======-->
+                    <!--====== PORTFOLIO 6 ======-->
                     <div class="portfolio_content grid swiper-slide">
                         <img src="images/portfolioImg_emonet.png" alt="EmoNet Result Screenshot"
                              class="portfolio_img">
 
                         <div class="portfolio_data">
-                            <h3 class="portfolio_title">EmoNet</h3>
+                            <h4 class="portfolio_title">EmoNet</h4>
                             <p class="portfolio_description">A deep learning project that can recognize the facial
                                 expression in the webcam and generate corresponding emoji.</p>
                             <p class="portfolio_description">The project can be used in online meetings when people are
@@ -960,13 +1051,13 @@
                         </div>
                     </div>
 
-                    <!--====== PORTFOLIO 6 ======-->
+                    <!--====== PORTFOLIO 7 ======-->
                     <div class="portfolio_content grid swiper-slide">
                         <img src="images/portfolioImg_marl.png" alt="MARL Result Screenshot"
                              class="portfolio_img">
 
                         <div class="portfolio_data">
-                            <h3 class="portfolio_title">Multi-Robot Exploration with Multi-Objective Bayesian Optimization</h3>
+                            <h4 class="portfolio_title">Multi-Robot Exploration with Multi-Objective Bayesian Optimization</h4>
                             <p class="portfolio_description">Use MOBO to optimize the configurations of robots used to explore unknown areas
                                 so that it has the best balance between the cost and the performance.</p>
                             <a href="https://docs.google.com/document/d/1xXXhkvfOzL7l3vuG49QcyoasW-_gMNUSYkhrjMwykkw/edit?usp=sharing"
@@ -976,12 +1067,12 @@
                         </div>
                     </div>
 
-                    <!--====== PORTFOLIO 7 ======-->
+                    <!--====== PORTFOLIO 8 ======-->
                     <div class="portfolio_content grid swiper-slide">
                         <img src="images/portfolioImg_ball.jpg" alt="Game Screenshot" class="portfolio_img">
 
                         <div class="portfolio_data">
-                            <h3 class="portfolio_title">Battle of Balls</h3>
+                            <h4 class="portfolio_title">Battle of Balls</h4>
                             <p class="portfolio_description">A single player survival game in which player controls a
                                 ball to try to avoid been eaten by other balls and eat smaller balls.</p>
                             <p class="portfolio_description">The game has both website version and ArmV7 version.</p>
@@ -995,13 +1086,13 @@
                         </div>
                     </div>
 
-                    <!--====== PORTFOLIO 8 ======-->
+                    <!--====== PORTFOLIO 9 ======-->
                     <div class="portfolio_content grid swiper-slide">
                         <img src="images/portfolioImg_mind.jpg" alt="MindVoice Screenshot"
                             class="portfolio_img portfolio_full-img">
 
                         <div class="portfolio_data">
-                            <h3 class="portfolio_title">MindVoice</h3>
+                            <h4 class="portfolio_title">MindVoice</h4>
                             <p class="portfolio_description">A social network where users can air their thoughts freely.
                             </p>
                             <a href="OuterLinks/MindVoice/MainStation/html/Explore.html" target="_blank"
@@ -1015,7 +1106,7 @@
                         </div>
                     </div>
 
-                    <!--====== PORTFOLIO 9 ======-->
+                    <!--====== PORTFOLIO 10 ======-->
                     <div class="portfolio_content grid swiper-slide">
                         <!--Thumbnail Images-->
                         <ul class="portfolio_thumb-bar">
@@ -1037,7 +1128,7 @@
                         </ul>
 
                         <div class="portfolio_data">
-                            <h3 class="portfolio_title">2D CG Illustration</h3>
+                            <h4 class="portfolio_title">2D CG Illustration</h4>
                             <p class="portfolio_description">Fancy illustrations which can catch customers eyes
                                 immediately.</p>
                             <a href="https://www.pixiv.net/users/56079335" target="_blank"
@@ -1059,7 +1150,7 @@
                 <div class="swiper-pagination"></div>
             </div>
 
-            <!-- Pop-up Video of PORTFOLIO 2 -->
+            <!-- Pop-up Video of PORTFOLIO 1 -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
