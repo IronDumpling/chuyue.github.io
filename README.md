@@ -1,2 +1,2 @@
 # SelfIntroWeb
-My Portofolio Website Page: [www.chuyue.ca](https://irondumpling.github.io/chuyue.github.io/)
+My Portofolio Website Page: [chuyue.github.io](https://irondumpling.github.io/chuyue.github.io/)
